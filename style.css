@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Black.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    margin: 0;
+}
+
+.page {
+    font-family: 'Roboto', Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+    background-color: #edb8c4;
+}
+
+.nav {
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    transition: opacity .2s ease;
+}
+
+.nav-link:hover {
+    opacity: 0.6;
+}
+
+.main {
+    background-color: white;
+}
+
+.profile {
+    max-width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 15px solid #edb8c4;
+    width: 100%;
+    padding: 50px 30px 35px;
+}
+
+.profile__titile {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    color: #4d2323;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+}
+
+.profile__titile::after {
+    display: block;
+    content: "";
+    margin: 0 auto;
+    width: 140px;
+    height: 1px;
+    background-color: #edb8c4;
+}
+
+.profile__text {
+    margin: 0;
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.profile__photo-link {
+    background-image: url('./assets/img/capy.JPG');
+    background-size: 200px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    transition: opacity .2s ease;
+}
+
+.profile__photo-link:hover {
+    opacity: 0.7;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 1100px;
+    padding: 30px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.content__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #4d2323;
+}
+
+.content__title_code {
+    margin-bottom: 0;
+}
+
+.content__text {
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+    color: #4d2323;
+}
+
+.content__text_pre {
+    margin: 0;
+}
+
+.content__list {
+    padding: 0;
+    padding-left: 25px;
+}
+
+.content__list-item {
+    list-style-type: circle;
+    margin-bottom: 10px;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content__container {
+    max-width: 500px;
+    border-bottom: 1px solid #edb8c4;
+}
+
+.content__container_projects {
+    border-bottom: none;
+}
+
+.content__container_experience {
+    border-bottom: none;
+}
+
+.footer {
+    background-color: #edb8c4;
+    padding: 0 35px;
+}
+
+.footer__info {
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.footer__link-autor {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 12px;
+    transition: opacity .2s ease;
+}
+
+.footer__link-autor:hover {
+    opacity: .6;
+}
+
+.footer__logo-link {
+    background-image: url('./assets/logo/rs_school_js.svg');
+    background-size: 120px 45px;
+    width: 120px;
+    height: 45px;
+    transition: opacity .2s ease;
+}
+
+.footer__logo-link:hover {
+    opacity: 0.6;
+}
