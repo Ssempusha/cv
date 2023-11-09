@@ -77,7 +77,7 @@ html {
 
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: #000;
   font-size: 20px;
   font-weight: 300;
   line-height: 2;
@@ -259,14 +259,14 @@ html {
 }
 
 .footer__copyright {
-  color: white;
+  color: #000;
   font-size: 20px;
   font-weight: 300;
   line-height: 50px;
 }
 
 .footer__link-autor {
-  color: #fff;
+  color: #000;
   text-decoration: none;
   margin-left: 12px;
   transition: opacity 0.2s ease;

@@ -1,3 +1,3 @@
+# Немного информации обо мне в формате одностраничного сайта. Просто кликните на ссылку ниже :)
 
-[CV link](https://ssempusha.github.io/rsschool-cv/)
-
+[CV link](https://ssempusha.github.io/cv/)
